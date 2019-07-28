@@ -39,7 +39,7 @@ describe('jQuery', function () {
       url: 'https://raw.githubusercontent.com/FE-star/exercise1/master/test/test.js',
       success (res) {
         if (res) {
-          done(new Error('123'))
+          done()
         } else {
           done('result empty')
         }
